@@ -47,6 +47,7 @@
         android:inputType="textPassword"
         android:layout_marginTop="50dp"/>
     <Button
+        android:id="@+id/btn1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Login"
@@ -55,5 +56,15 @@
         android:layout_gravity="center"
         android:layout_marginTop="40dp"
         android:textStyle="bold"/>
-
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Signup"
+        android:onClick="signup"
+        android:textSize="30sp"
+        android:background="@drawable/rounded_btn"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:textStyle="bold"/>
 </LinearLayout>
