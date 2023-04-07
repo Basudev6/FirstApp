@@ -34,4 +34,9 @@ public class Login extends AppCompatActivity {
         Intent intent_signup = new Intent(Login.this,Signup.class);
         startActivity(intent_signup);
     }
+
+    public void Forget(View view) {
+        Intent intent_forget = new Intent(Login.this,Forget.class);
+        startActivity(intent_forget);
+    }
 }
